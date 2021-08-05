@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+.stylenav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.stylenav li {
+  float: left;
+}
+
+.stylenav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.stylenav li a:hover {
+  background-color: #111;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.stylebody {
+    text-align:center;
+    background-color:powderblue;
+}
+</style>
+
+<head>
+    <title>Bernadette Chrestella</title>
+</head>
+
+<body class="stylebody">
+    <nav class="stylenav">
+        <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#work-experience">Work Experiences</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+            <li><a href="#footer">Footer</a></li>
+        </ul>
+    </nav><br />
+
+    <section id="profile">
+        <img src="assets/img/Bernadette Chrestella.jpg" alt="Bernadette Chrestella" width="200" height="300"/>
+        
+        <h1>Bernadette Chrestella</h1>
+        <h4>Jalan Tahiti, RT 02, Rw02, Bintuni Timur, Bintuni, Papua Barat</h4>
+        <h4>bernadettechrestella@gmail.com</h4>
+        <h4>081248002829</h4>
+
+        <ul>
+            <li><a href="https://www.linkedin.com/in/bernadette-chrestella-2785b6106/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/bernadette.chrestella/" target="_blank">Instagram</a></li>
+        </ul>
+
+        <hr/>
+    </section>
+
+    <section id="about-me">
+        <h1>About Me</h1>
+        <br>
+        <p>Nama panggilan saya Stella. Saya adalah alumni Universitas Sanata Dharma yang lulus di tahun 2020. Saya mengambil jurusan Informatika. Saya adalah pribadi yang tertarik dengan tantangan berupa hal-hal baru yang dapat dipelajari.</p>
+    </section>
+
+    <section id="work-experience">
+        <h1>Work Experience</h1>
+        <br>
+        <table style="width:100%">
+            <tr>
+                <th>Company</th>
+                <th>Role</th>
+                <th>Status</th>
+                <th>Period</th>
+            </tr>
+            <tr>
+                <td>You Want Coffe Cafe</td>
+                <td>Barista</td>
+                <td>Inactive</td>
+                <td>July-August 2019</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="education">
+        <h1>Education</h1>
+        <br>
+        <h4>Universitas Sanata Dharma</h4>
+        <hr>
+        <h5>Informatika</h5>
+        <h5>2016-2020</h5>
+    </section>
+
+    <section id="Skills">
+        <h1>Skills</h1>
+        <br>
+        <ul>
+            <li><a>Java Programming</a></li>
+            <li><a>HTML</a></li>
+            <li><a>CSS</a></li>
+            <li><a>JavaScript</a></li>
+            <li><a>Mikrotik</a></li>
+            <li><a>Cisco</a></li>
+            <li><a>Core System Administration</a></li>
+            <li><a>Adobe Illustrator</a></li>
+        </ul>
+    </section>
+
+    <section id="contact-me">
+        <h1>Contact Me</h1><br />
+        <form>
+            <label for="firstname">Firstname</label><br />
+            <input type="text" id="firstname" name="firstname" placeholder="firstname"><br />
+            <label for="lastname">Lastname</label><br />
+            <input type="text" id="lastname" name="lastname" placeholder="lastname"><br />
+            <label for="country">Choose your Country</label>
+            <select id="country" name="country">
+                <option value="Indonesia">Indonesia</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="Japan">Japan</option>
+            </select><br />
+            <textarea name="message" rows="10" cols="30" placeholder="Write Your Message Here."></textarea>
+            <input type="submit">
+        </form>
+    </section>
+    
+    <section id="footer">
+        <footer>
+            <p>Bernadette Chrestella</p>
+            <p><a href="mailto:bernadettechrestella@gmail.com">Send Email</a></p>
+        </footer>
+    </section>
+    
+</body>
+
+</html>
