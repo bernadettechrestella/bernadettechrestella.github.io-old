@@ -1,4 +1,4 @@
-a:link {
+  a:link {
     color: red;
   }
   
@@ -27,7 +27,7 @@ a:link {
     height: 150px;
   }
 
-  .container .row .col {
+  /* .col {
     padding-left: 20px;
     padding-right: 20px;
-  }
+  } */
