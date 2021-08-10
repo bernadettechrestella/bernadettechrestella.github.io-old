@@ -114,20 +114,30 @@
 
     <section id="contact-me">
         <h1 class="p-3 mb-2 bg-info text-dark"><i class="fas fa-envelope"></i> Contact Me</h1><br />
-        <form>
-            <label for="firstname">Firstname</label><br />
-            <input type="text" id="firstname" name="firstname" placeholder="firstname"><br />
-            <label for="lastname">Lastname</label><br />
-            <input type="text" id="lastname" name="lastname" placeholder="lastname"><br />
-            <label for="country">Choose your Country</label><br />
-            <select id="country" name="country">
-                <option value="Indonesia">Indonesia</option>
-                <option value="USA">USA</option>
-                <option value="Canada">Canada</option>
-                <option value="Japan">Japan</option>
-            </select><br />
-            <textarea name="message" rows="10" cols="150" placeholder="Write Your Message Here."></textarea><br />
-            <input type="submit">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <form>
+                        <label for="firstname">Firstname</label><br />
+                        <input type="text" id="firstname" name="firstname" placeholder="firstname"><br />
+                        <label for="lastname">Lastname</label><br />
+                        <input type="text" id="lastname" name="lastname" placeholder="lastname"><br />
+                        <label for="country">Choose your Country</label><br />
+                        <select id="country" name="country">
+                            <option value="Indonesia">Indonesia</option>
+                            <option value="USA">USA</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Japan">Japan</option>
+                        </select>
+                        <br>
+                        <label for="message">Message</label><br />
+                        <textarea name="message" rows="10" cols="95" placeholder="Write Your Message Here."></textarea><br />
+                        <input type="submit">
+                        <br>
+                        <br>
+                </div>
+            </div>
+        </div>
         </form>
     </section>
     
